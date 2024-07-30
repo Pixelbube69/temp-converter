@@ -29,3 +29,11 @@
 
 
 # Print the number with leading zeros using f-strings
+
+
+a=float(input("Please enter a decimal number"))
+result = (round(a, 2))
+print(f"Rounded to 2 decimal places is: {result} ")
+print(f"lage number: {a}")
+print(f"My small number: {result:.2e}")
+print(f"My large number: {a:.2e}")
